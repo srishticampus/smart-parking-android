@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "880935711728",
+    "firebase_url": "https://fir-bccf9-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "fir-bccf9",
+    "storage_bucket": "fir-bccf9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880935711728:android:5f15b09e18513afe7e6335",
+        "android_client_info": {
+          "package_name": "com.project.smartparking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwYfouamdB57ffZk-5LejvzsGOxWM7RSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

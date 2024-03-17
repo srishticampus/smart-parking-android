@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".HomeActivity">
+
+    <ImageView
+        android:id="@+id/parking_img"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:src="@drawable/parking_image" />
+
+    <TextView
+        android:id="@+id/tvOne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/parking_img"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="Select Your Parking Slot"
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="40dp"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/slotOneTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvOne"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/poppins"
+        android:text="Slot One"
+        android:layout_marginLeft="35dp"
+        android:textSize="16sp" />
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:id="@+id/switch_slot_one"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvOne"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp" />
+    <TextView
+        android:id="@+id/slotTwoTv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/slotOneTv"
+        android:layout_marginTop="40dp"
+        android:fontFamily="@font/poppins"
+        android:text="Slot Two"
+        android:layout_marginLeft="35dp"
+        android:textSize="16sp" />
+
+    <com.google.android.material.materialswitch.MaterialSwitch
+        android:id="@+id/switch_slot_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/switch_slot_one"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="20dp"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/checkOutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/switch_slot_two"
+        android:textColor="@color/white"
+        android:fontFamily="@font/poppins_semibold"
+        android:layout_marginHorizontal="35dp"
+        android:layout_marginTop="60dp"
+        android:background="@drawable/btn_bg"
+        android:text="Book your slot" />
+</RelativeLayout>
